@@ -170,8 +170,6 @@ github.com/kong/deck v1.30.0 h1:tqvEeKlhpdkhccOWlzqNlRAHGrPN+ovlYF4YA8PATW8=
 github.com/kong/deck v1.30.0/go.mod h1:D+igZLJre5MjYhltMnHHRZhpwqnb+AaKepM5vOIxtbo=
 github.com/kong/go-apiops v0.1.27 h1:Jy9HSBtGtO0r0UpXSFenCfOUA0QmeX4i8iGQU0vnC+Q=
 github.com/kong/go-apiops v0.1.27/go.mod h1:TYRNVbQ/lw6D3AUJBVP1w4zmMlJ59K83q+zCFa02uZ4=
-github.com/kong/go-kong v0.50.0 h1:HDKn3o/02AH4cURvjzS09gqC4bHZDva5H8JJwYi7T1U=
-github.com/kong/go-kong v0.50.0/go.mod h1:xDf1RfkaE/rAwNE1fS3XniFj/d2JmkEER2S9NDY12Yw=
 github.com/kong/go-slugify v1.0.0 h1:vCFAyf2sdoSlBtLcrmDWUFn0ohlpKiKvQfXZkO5vSKY=
 github.com/kong/go-slugify v1.0.0/go.mod h1:dbR2h3J2QKXQ1k0aww6cN7o4cIcwlWflr6RKRdcoaiw=
 github.com/kong/semver/v4 v4.0.1 h1:DIcNR8W3gfx0KabFBADPalxxsp+q/5COwIFkkhrFQ2Y=
@@ -249,6 +247,8 @@ github.com/pterm/pterm v0.12.36/go.mod h1:NjiL09hFhT/vWjQHSj1athJpx6H8cjpHXNAK5b
 github.com/pterm/pterm v0.12.40/go.mod h1:ffwPLwlbXxP+rxT0GsgDTzS3y3rmpAO1NMjUkGTYf8s=
 github.com/pterm/pterm v0.12.70 h1:8W0oBICz0xXvUeB8v9Pcfr2wNtsm7zfSb+FJzIbFB5w=
 github.com/pterm/pterm v0.12.70/go.mod h1:SUAcoZjRt+yjPWlWba+/Fd8zJJ2lSXBQWf0Z0HbFiIQ=
+github.com/randmonkey/go-kong v0.0.0-20240122091039-f87b8346f079 h1:piRe+QtKTa1ZcQkVEQcvTLaubiL++fLHs9U2cwO/98M=
+github.com/randmonkey/go-kong v0.0.0-20240122091039-f87b8346f079/go.mod h1:xDf1RfkaE/rAwNE1fS3XniFj/d2JmkEER2S9NDY12Yw=
 github.com/rivo/uniseg v0.2.0/go.mod h1:J6wj4VEh+S6ZtnVlnTBMWIodfgj8LQOQFoIToxlJtxc=
 github.com/rivo/uniseg v0.4.4 h1:8TfxU8dW6PdqD27gjM8MVNuicgxIjxpm4K7x4jp8sis=
 github.com/rivo/uniseg v0.4.4/go.mod h1:FN3SvrM+Zdj16jyLfmOkMNblXMcoc8DfTHruCPUcx88=

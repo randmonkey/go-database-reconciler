@@ -113,3 +113,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/kong/go-kong => github.com/randmonkey/go-kong v0.0.0-20240122091039-f87b8346f079
