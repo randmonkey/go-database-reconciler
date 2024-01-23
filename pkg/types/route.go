@@ -143,7 +143,7 @@ func (d *routeDiffer) createUpdateRoute(route *state.Route) (*crud.Event, error)
 	currentRoute, err := d.currentState.Routes.Get(*route.ID)
 	if errors.Is(err, state.ErrNotFound) {
 		// route not present, create it
-
+		fmt.Printf("=== Diff: Create route %s: %+v\n", *route.ID, route)
 		return &crud.Event{
 			Op:   crud.Create,
 			Kind: d.kind,
@@ -157,6 +157,7 @@ func (d *routeDiffer) createUpdateRoute(route *state.Route) (*crud.Event, error)
 	// found, check if update needed
 
 	if !currentRoute.EqualWithOpts(route, false, true, false) {
+		fmt.Printf("=== Diff: Update route %s: %+v\n", *route.ID, route)
 		return &crud.Event{
 			Op:     crud.Update,
 			Kind:   d.kind,
